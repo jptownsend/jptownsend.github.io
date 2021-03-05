@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Postdoctoral researcher, Providence College/Marine Biological Laboratory
 
 profile:
   align: right
