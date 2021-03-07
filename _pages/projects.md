@@ -2,8 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: An ever-growing account of the various "side projects" taking over my brain...
+nav: true
 ---
 
 <div class="projects grid">
@@ -21,7 +21,7 @@ nav: false
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <h3 class="card-title text-lowercase">{{ project.title }}</h3>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
