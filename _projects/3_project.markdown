@@ -15,5 +15,5 @@ Even in some areas of high bryozoan biodiversity ("bryodiversity") there appears
     </div>
 </div>
 <div class="caption">
-    Reteporella colony from the Antarctic peninsula. Photograph by <a href="https://twitter.com/mccullermi">Megan McCuller</a>.
+    <i>Reteporella</i> colony from the Antarctic peninsula. Photograph by <a href="https://twitter.com/mccullermi">Megan McCuller</a>.
 </div>

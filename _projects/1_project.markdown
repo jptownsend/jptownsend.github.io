@@ -6,7 +6,7 @@ img: /assets/img/vampy.jpg
 importance: 1
 ---
 
-From the open ocean waters of the Gulf Stream to the benthos of the Antarctic penninsula, there are numerous species of ctenophores lacking reliable sequence data, or well-described physiology. Insights into these matters help us to understand these fascinating animals better, and make sense of molecular phyolgenetic accounts of the evolution of animal life.
+From the open ocean waters of the Gulf Stream to the benthos of the Antarctic penninsula, there are numerous species of ctenophores lacking reliable sequence data, or well-described physiology. Insights into these matters help us to understand these fascinating animals better, and make sense of molecular phylogenetic accounts of the evolution of animal life.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -15,5 +15,5 @@ From the open ocean waters of the Gulf Stream to the benthos of the Antarctic pe
 </div>
 
 <div class="caption">
-	<i>Vampyroctena delmarvensis</i>, the first newly described ctenophore species to inckude a transcriptome as part of its <a href="https://rdcu.be/b3Z9y">formal taxonomic description</a>.
+	<i>Vampyroctena delmarvensis</i>, the first newly described ctenophore species to include a transcriptome as part of its <a href="https://rdcu.be/b3Z9y">formal taxonomic description</a>.
 </div>
