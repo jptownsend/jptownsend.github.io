@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <b><i>Postdoctoral researcher, Providence College/Marine Biological Laboratory</i></b>
+description: <b><i>Postdoctoral researcher, University of Florida, Whitney Laboratory for Marine Biosciences</i></b>
 
 profile:
   align: right
