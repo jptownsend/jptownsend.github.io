@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: An ever-growing account of the various "side projects" taking over my brain...
+description: A selection of my ongoing research
 nav: true
 ---
 
