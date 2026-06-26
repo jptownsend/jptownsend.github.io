@@ -25,3 +25,33 @@
   </div>
 </footer>
 {% endif %}
+
+<!-- Block polyfill.io popup and remove related elements if present -->
+<script>
+(function(){
+  function removePolyfill() {
+    try {
+      // Remove any script tags that load polyfill.io
+      var scripts = document.querySelectorAll('script[src*="polyfill.io"]');
+      scripts.forEach(function(s){ if (s.parentNode) s.parentNode.removeChild(s); });
+
+      // Remove common banner elements that polyfill.io may inject
+      var banners = document.querySelectorAll('[id*="polyfill"], [class*="polyfill"], .polyfill-banner');
+      banners.forEach(function(b){ if (b.parentNode) b.parentNode.removeChild(b); });
+    } catch(e) {
+      // ignore
+    }
+  }
+  // Run immediately and observe for future additions
+  removePolyfill();
+  var observer = new MutationObserver(function(){ removePolyfill(); });
+  if (document.body) {
+    observer.observe(document.body, { childList: true, subtree: true });
+  } else {
+    document.addEventListener('DOMContentLoaded', function(){
+      removePolyfill();
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  }
+})();
+</script>
